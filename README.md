@@ -8,7 +8,7 @@ Example worlds:
 
 The rules:
 
-a) The agent can move: (L)eft, R(ight), (U)p, i D(own). Executing a move in any direction transfers the agent to the intended state             with probability p1, with probability p2 it transfers the agent to the state left of the action's origin, with probability p3 it transfers the agent to the state right of the action's origin, and with probability (1-p1-p2-p3) it transfers the agent to the    state opposite of the intended state (for exemple p1=0.8 and p2=p3=0.1).
+a) The agent can move: Left(<), Right(>), Up(^), and Down(v). Executing a move in any direction transfers the agent to the intended state with probability p1, with probability p2 it transfers the agent to the state left of the action's origin, with probability p3 it transfers the agent to the state right of the action's origin, and with probability (1-p1-p2-p3) it transfers the agent to the state opposite of the intended state (for exemple p1=0.8 and p2=p3=0.1).
 
 b) When the agent executes a move outside the wall, or into a forbidden state, then as the result of such move she stays in place (and receives the appropriate reward). It is as if she bounced off the walls and forbidden states. 
 
