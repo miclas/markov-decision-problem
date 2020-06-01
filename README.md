@@ -1,4 +1,4 @@
-# markov-decision-process
+# markov-decision-problem
 ## Task
 The goal is to compute solutions to simple Markov decision problems (MDP). The agent operates in a flat grid world of size NxM using horizontal and vertical moves, with single field steps, at each step receiving the reward specific to the state she entered. In this world the fields are called states: unique start state (S), terminal states (T), the walls and prohibited states (F), and the special states (B). The agent starts in the starting state (S) and stops upon entering a terminal state (T). She can never traverse a wall or step into a prohibited state (F). All unmarked states are normal states, with the default reward value. The rewards received in special (B) and terminal (T) states are individually defined for each state. 
 
