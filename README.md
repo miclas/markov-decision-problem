@@ -2,6 +2,10 @@
 ## Task
 The goal is to compute solutions to simple Markov decision problems (MDP). The agent operates in a flat grid world of size NxM using horizontal and vertical moves, with single field steps, at each step receiving the reward specific to the state she entered. In this world the fields are called states: unique start state (S), terminal states (T), the walls and prohibited states (F), and the special states (B). The agent starts in the starting state (S) and stops upon entering a terminal state (T). She can never traverse a wall or step into a prohibited state (F). All unmarked states are normal states, with the default reward value. The rewards received in special (B) and terminal (T) states are individually defined for each state. 
 
+Example worlds:
+
+![alt text](https://github.com/miclas/markov-decision-process/blob/master/screenshots/ss.PNG)
+
 The rules:
 
 a) The agent can move: (L)eft, R(ight), (U)p, i D(own). Executing a move in any direction transfers the agent to the intended state             with probability p1, with probability p2 it transfers the agent to the state left of the action's origin, with probability p3 it transfers the agent to the state right of the action's origin, and with probability (1-p1-p2-p3) it transfers the agent to the    state opposite of the intended state (for exemple p1=0.8 and p2=p3=0.1).
@@ -18,3 +22,5 @@ The aim is to find the optimal agent policy, achieving the maximum expected valu
 All parameters are set in the data.json file
 
 ### Example
+![alt text](https://github.com/miclas/markov-decision-process/blob/master/screenshots/ss1.PNG)
+
