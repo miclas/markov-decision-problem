@@ -4,7 +4,7 @@ The goal is to compute solutions to simple Markov decision problems (MDP). The a
 
 Example worlds:
 
-
+![alt text](https://github.com/miclas/markov-decision-process/blob/master/screenshots/ss.PNG)
 
 The rules:
 
@@ -22,5 +22,5 @@ The aim is to find the optimal agent policy, achieving the maximum expected valu
 All parameters are set in the data.json file
 
 ### Example
-
+![alt text](https://github.com/miclas/markov-decision-process/blob/master/screenshots/ss1.PNG)
 
